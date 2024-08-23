@@ -1,0 +1,17 @@
+1) Download the Project
+2. Set Up a Virtual Environment
+	python -m venv env
+3) Activate the Virtual Environment
+	env\Scripts\activate
+4)  Install Dependencies
+Install Required Packages: pip install -r requirements.txt
+5)Apply Database Migrations
+         python manage.py migrate
+6) Create a Superuser
+	python manage.py createsuperuser
+7)Run the Development Server
+	python manage.py runserver
+8) Access the Application
+	Web Application: http://127.0.0.1:8000/
+	Admin Interface: http://127.0.0.1:8000/admin/
+   
